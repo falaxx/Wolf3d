@@ -8,13 +8,13 @@ In this project we followed the footsteps of brillant programmer John Carmack an
 
 Not re-write the ENTIRE Wolfenstein 3D but a 3D representation of a maze in which a player can find his/her way, using the ray casting technique.
 
-This is the introduction to the final project : Doom Nukem.
+This is a two person project and the introduction to the final project : Doom Nukem.
 
 ![](wolf3d.gif)
 
 ## Features
 
-I had to remove multiple feature to keep the minimum like teleportation and items wich had some issues.
+We had to remove multiple feature to keep the minimum like teleportation and items wich had some issues.
 
 However there is :
 - texture mode : press p to see / unsee the textures on the wall
