@@ -109,7 +109,7 @@ void	ft_init_struct(t_s *s)
 	if (!(s->window = SDL_CreateWindow("Wolf3d", 100, 100, WINDOW_WIDTH,
 	WINDOW_HIGH, SDL_WINDOW_MAXIMIZED)))
 		ft_usage(-1, s);
-	if (!(s->render = SDL_CreateRenderer(s->window, -1, 0)))
+	if (!(s->render = SDL_CreateRenderer(s->window, -1, SDL_RENDERER_ACCELERATED)))
 		ft_usage(-1, s);
 	s->pos->initplayer = 0;
 	s->pos->eyehigh = 0;

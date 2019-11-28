@@ -12,11 +12,11 @@ LDFLAGS = -L libft/ -lft
 
 CC = gcc
 
-SDLFLAGS =  $(SDLINCL) -L frameworks/sdl2/lib -lSDL2
+SDLFLAGS =  $(SDLINCL) -L$(HOME)/.brew/Cellar/sdl2/2.0.10/lib -lSDL2
 
-SDLINCL = -I frameworks/sdl2/include
+SDLINCL = -I $(HOME)/.brew/Cellar/sdl2/2.0.10/include/SDL2
 
-CFLAGS = -Werror -Wall -Wextra
+CFLAGS = -Werror -Wall -Wextra -O3 -march=native
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
 
