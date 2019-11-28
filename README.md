@@ -31,10 +31,7 @@ Then simply
 ```
 make
 ```
-or 
-```
-make re
-```
+
 ## Usage 
 ```
 ./Wolf3d maps/first_map.txt
